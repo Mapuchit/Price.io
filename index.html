@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Price.io</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="CSS/styles.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="<link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Signika:wght@300;400;500;600;700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital@1&display=swap" rel="stylesheet"> 
+    </head>
+    <body id="index_page_body">
+        <header>
+            <div id="head_div">
+                <img id="full_logo" src="images/logo.png">
+                <nav id="head_nav">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="trending.html">Trending Price Drops</a></li>
+                        <li><a href="popular.html">Popular Products</a></li>
+                    </ul> 
+                </nav>
+                <button class="yellow_button" id="top_sign_up" type="button">Sign Up</button>
+                <select id="country_select" size="1">
+                    <option value="us">Amazon US</option>
+                    <option value="uk">Amazon UK</option>
+                    <option value="can">Amazon Canada</option>
+                    <option value="in">Amazon India</option>
+                </select>
+            </div>
+        </header>
+        <main>
+            <article>
+                <section>
+                    <h1>Get Instant E-mail 
+                        <br>Notifications When 
+                        <br>Amazon Prices Drop.</h1>
+                    <form id="search_field">
+                        <input class="input_field" type="search" id="asearch" name="asearch" placeholder="Enter Product URL (https://www.amazon.com/Fujifilm-Instax-SP-3-Mobi...)">
+                        <input class="yellow_button" type="submit" id="submit_search" value="Search">
+                    </form>
+                    <p id="comment1">* You can also search via Keyword (i.e. Apple Airpods Pro)</p>
+                </section>
+                <section>
+                    <select id="results_by_price">
+                        <option value="lowest">Best Prices</option>
+                        <option value="highest">Highest Prices</option>
+                    </select>
+                    <nav id="results_by_country">
+                        <ul>
+                            <li><a href="index.html">Amazon US</a></li>
+                            <li><a href="index_uk.html">Amazon UK</a></li>
+                            <li><a href="index_can.html">Amazon Canada</a></li>
+                            <li><a href="index_in.html">Amazon India</a></li>
+                        </ul> 
+                    </nav>
+                    <select id="filter_results">
+                        <option value="newest">Newest</option>
+                        <option value="popular">Most Popular</option>
+                        <option value="discount">Discount</option>
+                    </select>
+                    <div id="search_results">
+                        <div id="first_product" class="product">
+                            <figure>
+                                <img class="product_pic" src="images/product-1.png">
+                                <figcaption class="product_description">Apple MacBook Pro 13' 2.4 Ghz - 8 GB RAM</figcaption>
+                            </figure>
+                            <div class="best_price_tag">
+                                <p>Best Price</p>
+                            </div>
+                            <div class="prices">
+                                <div class="current_price">
+                                    <p>Current Price</p>
+                                    <div>$859.99</div>
+                                </div>
+                                <div class="highest_price">
+                                    <p>Highest Price</p>
+                                    <div>$1099.99</div>
+                                </div>
+                            </div>
+                            <div class="buy_now_button">
+                                <button class="yellow_button" type="button"><a href="./product.html">Buy Now</a></button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <figure>
+                                <img class="product_pic" src="images/product-2.png">
+                                <figcaption class="product_description">Roland F-20 88 Weighted Digital Piano</figcaption>
+                            </figure>
+                            <div class="best_price_tag">
+                                <p>Best Price</p>
+                            </div>
+                            <div class="prices">
+                                <div class="current_price">
+                                    <p>Current Price</p>
+                                    <div>$430.99</div>
+                                </div>
+                                <div class="highest_price">
+                                    <p>Highest Price</p>
+                                    <div>$489.99</div>
+                                </div>
+                            </div>
+                            <div class="buy_now_button">
+                                <button class="yellow_button" type="button">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <figure>
+                                <img class="product_pic" src="images/product-3.png">
+                                <figcaption class="product_description">Alienware m17 R3 17.7 Inch Gaming Laptop</figcaption>
+                            </figure>
+                            <div class="best_price_tag">
+                                <p>Best Price</p>
+                            </div>
+                            <div class="prices">
+                                <div class="current_price">
+                                    <p>Current Price</p>
+                                    <div>$2499.00</div>
+                                </div>
+                                <div class="highest_price">
+                                    <p>Highest Price</p>
+                                    <div>$2699.99</div>
+                                </div>
+                            </div>
+                            <div class="buy_now_button">
+                                <button class="yellow_button" type="button">Buy Now</button>
+                            </div>
+                        </div>
+                        <div class="product">
+                            <figure>
+                                <img class="product_pic" src="images/product-4.png">
+                                <figcaption class="product_description">JBL Boombox - Waterproof Portable Speaker</figcaption>
+                            </figure>
+                            <div class="best_price_tag">
+                                <p>Best Price</p>
+                            </div>
+                            <div class="prices">
+                                <div class="current_price">
+                                    <p>Current Price</p>
+                                    <div>$499.95</div>
+                                </div>
+                                <div class="highest_price">
+                                    <p>Highest Price</p>
+                                    <div>$505.99</div>
+                                </div>
+                            </div>
+                            <div class="buy_now_button">
+                                <button class="yellow_button" type="button">Buy Now</button>
+                            </div>
+                        </div>
+                        <div id="last_product" class="product">
+                            <figure>
+                                <img class="product_pic" src="images/product-5.png">
+                                <figcaption class="product_description">ELAC Debut 2.0 SUB3010 400 Watt - Black</figcaption>
+                            </figure>
+                            <div class="best_price_tag">
+                                <p>Best Price</p>
+                            </div>
+                            <div class="prices">
+                                <div class="current_price">
+                                    <p>Current Price</p>
+                                    <div>$459.98</div>
+                                </div>
+                                <div class="highest_price">
+                                    <p>Highest Price</p>
+                                    <div>$579.98</div>
+                                </div>
+                            </div>
+                            <div class="buy_now_button">
+                                <button class="yellow_button" type="button">Buy Now</button>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="email_sign_up">
+                    <h2>Want to get notified when any product receives a price drop?</h2>
+                    <form id="sign_up_form" >
+                        <input class="input_field" type="text" id="email" name="email" placeholder="Enter e-mail address">
+                        <input class="yellow_button" type="submit" value="Sign Up">
+                    </form>
+                    <p id="comment2">* No spam, ever. Only receive price drop notifications.</p>
+                </section>
+            </article>
+        </main>
+        <footer>
+            <div id="foot_div">
+                <figure id="foot_logo">
+                    <img src="images/logo-notext.png">
+                    <figcaption>© 2020</figcaption>
+                </figure>
+                <nav id="foot_nav">
+                    <ul id="outer_list">
+                        <li id="bottom_nav1" >Price.io
+                            <ul class="inner_list">
+                                <li><a href="index.html">Home</a></li>
+                                <li><a href="trending.html">Trending Price Drops</a></li>
+                                <li><a href="popular.html">Popular Products</a></li>
+                            </ul>
+                        </li>
+                        <li id="bottom_nav2">Amazon Store Selector
+                            <ul class="inner_list">
+                                <li><a href="index.html">Amazon US</a></li>
+                                <li><a href="index_uk.html">Amazon UK</a></li>
+                                <li><a href="index_can.html">Amazon Canada</a></li>
+                                <li><a href="index_in.html">Amazon India</a></li>
+                            </ul> 
+                        </li>
+                        <li id="bottom_nav3">Hotlinks
+                            <ul class="inner_list">
+                                <li><a>Sign Up</a></li>
+                                <li><a>Sign In</a></li>
+                                <li><a>Support</a></li>
+                            </ul>
+                        </li>
+                        <li id="bottom_nav4">Personal
+                            <ul class="inner_list">
+                                <li><a>Dashboard</a></li>
+                            </ul>
+                        </li>
+                        <li id="bottom_nav5">Follow Us On
+                            <ul class="inner_list">
+                                <li><a>Twitter</a></li>
+                                <li><a>Facebook</a></li>
+                                <li><a>Instagram</a></li>
+                            </ul>
+                        </li>
+                    </ul> 
+                </nav>
+                <p id="made_with">Made with ❤️by a Good Code Challenger</p>
+            </div>
+        </footer>
+        <script src="" async defer></script>
+    </body>
+</html>

@@ -1,11 +1,36 @@
-## What is Good Code? 👋
-Good code offers free Adobe XD templates for you to download and use to sharpen your HTML and CSS skills. All assets used are included in the compressed file and you can use them however you like, except for commercial use. 
+# Price.io - Front End Coding Challenge
 
-## What is the challenge?   
+This is a solution to the [Price.io challenge on Good Code](https://moeminm.github.io/goodcode/). Good code offers free Adobe XD templates for you to download and use to sharpen your HTML and CSS skills. 
+
+## Table of contents
+
+- [Overview](#overview)
+  - [The challenge](#the-challenge)
+  - [Links](#links)
+- [My process](#my-process)
+  - [Built with](#built-with)
+- [Acknowledgments](#acknowledgments)
+
+## Overview
+
+### The challenge
+
 Get as close as possible to the design. Don't bother too much with pixel-perfection, as long as you have the basic layout, you're good to go!
 
-## Where can I publish my code and/or results?
-You can post your results on the /r/GoodCodeChallenge subreddit, created just for this website. 
+### Links
 
-I'm always looking for feedback to improve any project I work, if you have any, please DM me at my e-mail over at moeminmamdouh@hotmail.com
-Thank you and have a wonderful day!
+- Solution URL: https://mapuchit.github.io/Price.io/
+
+## My process
+
+### Built with
+
+- Semantic HTML5 markup
+- Styling with CSS
+- Anchor links to sample product page and back to home page
+- Optimised for screen size of 1500 pixels and up
+- Non-responsive static webpage
+
+## Acknowledgments
+
+This challenge was completed as part of an exercise with the [Codecademy Milton Keynes Chapter](https://community.codecademy.com/milton-keynes/).
